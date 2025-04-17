@@ -1,0 +1,41 @@
+:root {
+    ---white-color: #fff;
+    --black-color: #000;
+    --text-color: #333;
+}
+
+*{
+    box-sizing: inherit;
+}
+
+html{
+    font-size: 62.5%;
+    line-height: 1.6rem;
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    font-variation-settings:
+    "wdth" 100;
+    box-sizing: border-box;
+}
+
+/* tạo grid để chỉnh sửa responsive */
+/* Nếu màn hình > 1200px, lock width 1200px & Nếu màn hình < 1200px, sẽ lấy max-width của màn hình < 1200px */
+.grid {
+    width: 1200px;
+    max-width: 100%;
+    margin: 0 auto
+}
+
+.grid_full-width{
+    width: 100%;
+}
+
+.grid_row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+
